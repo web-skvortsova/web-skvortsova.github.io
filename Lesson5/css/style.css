@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'montserrat_allfont_ru';
+    src: url('fonts/montserrat_allfont_ru.eot');
+    src: url('fonts/montserrat_allfont_ru.eot') format('embedded-opentype'),
+         url('fonts/montserrat_allfont_ru.woff2') format('woff2'),
+         url('fonts/montserrat_allfont_ru.woff') format('woff'),
+         url('fonts/montserrat_allfont_ru.ttf') format('truetype'),
+         url('fonts/montserrat_allfont_ru.svg#montserrat_allfont_ru') format('svg');
+}
+
+@font-face {
+    font-family: 'montserratblack_allfont_ru';
+    src: url('fonts/montserratblack_allfont_ru.eot');
+    src: url('fonts/montserratblack_allfont_ru.eot') format('embedded-opentype'),
+         url('fonts/montserratblack_allfont_ru.woff2') format('woff2'),
+         url('fonts/montserratblack_allfont_ru.woff') format('woff'),
+         url('fonts/montserratblack_allfont_ru.ttf') format('truetype'),
+         url('fonts/montserratblack_allfont_ru.svg#montserratblack_allfont_ru') format('svg');
+}
+
+@font-face {
+    font-family: 'CrimsonRoman';
+    src: url('fonts/CrimsonRoman.eot');
+    src: url('fonts/CrimsonRoman.eot') format('embedded-opentype'),
+         url('fonts/CrimsonRoman.woff2') format('woff2'),
+         url('fonts/CrimsonRoman.woff') format('woff'),
+         url('fonts/CrimsonRoman.ttf') format('truetype'),
+         url('fonts/CrimsonRoman.svg#CrimsonRoman') format('svg');
+}
+
+body {
+  padding: 0;
+  margi: 0;
+  overflow-x: hidden;
+}
+a:hover {
+text-decoration: none;
+}
+header {
+  position: relative;
+  width: 100vw;
+  height: 90px;
+  border-bottom: 1px solid #f0f2f7;
+}
+
+.header {
+  height: 90px;
+}
+
+.logo {
+  line-height: 90px;
+}
+
+.main-menu {
+  line-height: 90px;
+  max-height: 90px;
+}
+
+.main-menu__ul {
+  padding-left: 0;
+}
+
+.main-menu__item {
+  font-size: 14px;
+  font-family: 'montserrat_allfont_ru';
+  display: inline;
+  list-style: none;
+  color: #343e5c;
+}
+
+.main-menu__link {
+  text-decoration: none;
+  color: #343e5c;
+  padding-right: 30px;
+}
+
+.header-btn {
+  text-align: right;
+  padding-top: 30px;
+  color: #343e5c;
+  font-size: 11px;
+  font-family: 'montserrat_allfont_ru';
+  text-transform: uppercase;
+  position: relative;
+  display: inline;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header-btn__cart {
+  color: #343e5c;
+}
+
+.header-btn__cart::before {
+  content: "\f07a";
+  font-family: 'FontAwesome';
+  line-height: 1;
+  font-size: 16px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.header-btn__circle {
+margin-left: 7px;
+display: inline-block;
+text-align: center;
+border-radius: 50%;
+background-color: #e3e8f0;
+width: 24px;
+height: 24px;
+}
+
+.header-btn__number {
+  line-height: 24px;
+  display: inline;
+}
+
+.header-btn__sing {
+  border: 1px solid #e3e8f0;
+  border-radius: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 85px;
+  height: 32px;
+  background-color: #fff;
+  margin-left: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.header-btn__cart::before {
+  content: "\f07a";
+  font-family: 'FontAwesome';
+  line-height: 1;
+  font-size: 16px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.menu {
+  position: relative;
+  width: 100vw;
+  height: 55px;
+  border-bottom: 1px solid #e3e8f0;
+}
+
+.menu-top {
+  line-height: 55px;
+  max-height: 55px;
+}
+
+.menu-top__ul {
+  padding: 0;
+}
+
+.menu-top__item {
+  font-size: 11px;
+  font-family: 'montserrat_allfont_ru';
+  display: inline;
+  list-style: none;
+  color: #b9bed1;
+}
+
+.menu-top__link {
+  text-decoration: none;
+  color: #b9bed1;
+  padding-right: 30px;
+  text-transform: uppercase;
+}
+
+.menu-btn {
+  text-align: right;
+  padding-top: 16px;
+}
+
+.menu-btn__item {
+  font-size: 11px;
+  font-family: 'montserrat_allfont_ru';
+  display: inline;
+  list-style: none;
+  color: #b9bed1;
+  text-transform: uppercase;
+  padding-right: 55px;
+}
+
+.menu-btn__input {
+  font-size: 14px;
+  font-family: 'montserrat_allfont_ru';
+  display: inline;
+  list-style: none;
+  color: #b9bed1;
+  border: none;
+}
+
+.main {
+  position: relative;
+  width: 100vw;
+  height: 500px;
+  background-image: url(../img/bd.png);
+}
+
+.main_content {
+  position: relative;
+  display: inline-block;
+  float: left;
+  height: 100%;
+  padding-top: 106px ;
+  color: #fff;
+}
+
+.main__header {
+  font-family: 'montserratblack_allfont_ru';
+  font-size: 42px;
+}
+.main__text {
+  font-family: 'CrimsonRoman';
+  font-size: 16px;
+  padding-top: 10px;
+  margin-bottom: 70px;
+}
+
+.main__button {
+  width: 166px;
+  height: 42px;
+  background-color: #2754eb;
+  border-radius: 100px;
+  border: none;
+  text-transform: uppercase;
+  font-family: 'montserratblack_allfont_ru';
+  font-size: 11px;
+}
