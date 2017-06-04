@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'arvo';
+    src: url('fonts/arvo.eot');
+    src: url('fonts/arvo.eot') format('embedded-opentype'),
+         url('fonts/arvo.woff2') format('woff2'),
+         url('fonts/arvo.woff') format('woff'),
+         url('fonts/arvo.ttf') format('truetype'),
+         url('fonts/arvo.svg#arvo') format('svg');
+}
+
+@font-face {
+    font-family: 'notosans';
+    src: url('fonts/notosans.eot');
+    src: url('fonts/notosans.eot') format('embedded-opentype'),
+         url('fonts/notosans.woff2') format('woff2'),
+         url('fonts/notosans.woff') format('woff'),
+         url('fonts/notosans.ttf') format('truetype'),
+         url('fonts/notosans.svg#notosans') format('svg');
+}
+
+body {
+  padding: 0;
+  margi: 0;
+  overflow-x: hidden;
+  background-color: #f3f5f7;
+}
+.header {
+  background-color: #f3f5f7;
+  position: relative;
+  text-align: center;
+  font-family: 'arvo';
+  color: #3b3f6a;
+  font-size: 30px;
+  padding: 50px 0 120px 0;
+}
+.advantages__box {
+    text-align: center;
+    margin-bottom: 70px;
+}
+.advantages__header {
+  text-align: center;
+  font-family: 'arvo';
+  font-weight: 600;
+  font-size: 22px;
+  padding: 13px 0 14px 0;
+}
+
+.advantages__img {
+  vertical-align: middle;
+  width: 130px;
+  height: 130px;
+    text-align: center;
+}
+.advantages__text {
+  text-align: center;
+  font-family: 'notosans';
+  font-size: 18px;
+}
