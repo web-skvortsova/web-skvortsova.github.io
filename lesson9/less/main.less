@@ -1,0 +1,61 @@
+/*Color mixin*/ 
+@dark-color: #202242;
+@light-color: #ffe13e;
+@line-color: #ebebeb;
+@header-text: #fff;
+/*Basic style*/
+html {
+	font-size: 10px;
+} 
+body {
+	color: @dark-color;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+
+}
+/*Fonts mixin*/ 
+.reg {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+.semi {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+}
+.bold {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+.number {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+@font-face {
+    font-family: 'rockwell';
+    src: url('../fonts/rockwell.eot');
+    src: url('../fonts/rockwell.eot') format('embedded-opentype'),
+         url('../fonts/rockwell.woff2') format('woff2'),
+         url('../fonts/rockwell.woff') format('woff'),
+         url('../fonts/rockwell.ttf') format('truetype'),
+         url('../fonts/rockwell.svg#rockwell') format('svg');
+}
+@font-face {
+    font-family: 'rockwellbold';
+    src: url('../fonts/rockwellbold.eot');
+    src: url('../fonts/rockwellbold.eot') format('embedded-opentype'),
+         url('../fonts/rockwellbold.woff2') format('woff2'),
+         url('../fonts/rockwellbold.woff') format('woff'),
+         url('../fonts/rockwellbold.ttf') format('truetype'),
+         url('../fonts/rockwellbold.svg#rockwellbold') format('svg');
+}
+@font-face {
+    font-family: 'rockwellitalic';
+    src: url('../fonts/rockwellitalic.eot');
+    src: url('../fonts/rockwellitalic.eot') format('embedded-opentype'),
+         url('../fonts/rockwellitalic.woff2') format('woff2'),
+         url('../fonts/rockwellitalic.woff') format('woff'),
+         url('../fonts/rockwellitalic.ttf') format('truetype'),
+         url('../fonts/rockwellitalic.svg#rockwellitalic') format('svg');
+}
+@import "header.less" screen; 
