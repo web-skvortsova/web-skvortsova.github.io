@@ -1,0 +1,184 @@
+body {
+  font-family: 'FontfabricMullerMedium';
+  margin: 0;
+  padding: 0;
+  overflow-x: 0;
+}
+body h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4b50a5;
+}
+@font-face {
+  font-family: 'FontfabricMullerMedium';
+  src: url('fonts/FontfabricMullerMedium.eot');
+  src: url('fonts/FontfabricMullerMedium.eot') format('embedded-opentype'), url('fonts/FontfabricMullerMedium.woff2') format('woff2'), url('fonts/FontfabricMullerMedium.woff') format('woff'), url('fonts/FontfabricMullerMedium.ttf') format('truetype'), url('fonts/FontfabricMullerMedium.svg#FontfabricMullerMedium') format('svg');
+}
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+  width: 260px;
+  height: 260px;
+  background-color: #4b50a5;
+  text-align: center;
+  overflow: hidden;
+}
+.box-1 p,
+.box-2 p,
+.box-3 p,
+.box-4 p {
+  padding-top: 16px;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'FontfabricMullerMedium';
+}
+.box-1 a,
+.box-2 a,
+.box-3 a,
+.box-4 a {
+  opacity: 0;
+}
+.box-1 .wrap,
+.box-2 .wrap,
+.box-3 .wrap,
+.box-4 .wrap {
+  transform-original: 0% 0%;
+  transform: translatex(0%);
+}
+.box-1:hover .wrap {
+  opacity: 1;
+  position: relative;
+  height: 100%;
+  background-color: #00DF5C;
+  margin-top: -234.5px;
+  text-align: center;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  transform: translateX(0%);
+}
+.box-1:hover .wrap a {
+  opacity: 1;
+  padding: 15px 40px;
+  border: 0px solid;
+  font-size: 20px;
+  background-color: #4b50a5;
+  color: #fff;
+  line-height: 260px;
+  transition: all 0.5s;
+}
+.box-1:hover .wrap a:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: #4b50a5;
+  border-radius: 20px;
+}
+.box-2:hover .wrap {
+  opacity: 1;
+  position: relative;
+  height: 100%;
+  background-color: #ff757c;
+  margin-top: -238.5px;
+  text-align: center;
+  z-index: 9999;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  transform: translateX(0%);
+}
+.box-2:hover .wrap a {
+  opacity: 1;
+  padding: 15px 40px;
+  border: 0px solid;
+  font-size: 20px;
+  background-color: #4b50a5;
+  color: #fff;
+  line-height: 260px;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+.box-2:hover .wrap a:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: #4b50a5;
+  border-radius: 20px;
+}
+.box-3:hover .wrap {
+  opacity: 1;
+  position: relative;
+  height: 100%;
+  background-color: #b9e8ea;
+  margin-top: -234.5px;
+  text-align: center;
+  z-index: 9999;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  transform: translateX(0%);
+}
+.box-3:hover .wrap a {
+  opacity: 1;
+  padding: 15px 40px;
+  border: 0px solid;
+  font-size: 20px;
+  background-color: #4b50a5;
+  color: #fff;
+  line-height: 260px;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+.box-3:hover .wrap a:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: #4b50a5;
+  border-radius: 20px;
+}
+.box-4:hover .wrap {
+  opacity: 1;
+  position: relative;
+  height: 100%;
+  background-color: #fbb429;
+  margin-top: -234.5px;
+  text-align: center;
+  z-index: 9999;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  transform: translateX(0%);
+}
+.box-4:hover .wrap a {
+  opacity: 1;
+  padding: 15px 40px;
+  border: 0px solid;
+  font-size: 20px;
+  background-color: #4b50a5;
+  color: #fff;
+  line-height: 260px;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+.box-4:hover .wrap a:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: #4b50a5;
+  border-radius: 20px;
+}
+.main-test {
+  text-align: center;
+}
+.main-test-header {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
