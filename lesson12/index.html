@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Modal</title>
+
+    <!-- Bootstrap -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    
+    <a class="btn" href="#modal-1">
+    	<img src="img/school01.jpg" alt="">
+    </a>
+  		<a href="#close" class="popup-overlay" id="modal-1"></a>
+  			<div class="popup">
+    		<a class="popup-close" href="#close">&times;</a>
+		    <form action="#">
+		    	<h2>На открытом уроке вы:</h2>
+		    	<ul>
+		    		<li>Пообщаетесь с ведущем инструктором и руководителем нашей школы. Получите ответы на вопросы.</li>
+		    		<li>Познакомитесь с программой наших многочисленных курсов и сможете принять правильное решение: с чего начать свой путь в новой профессии.</li>
+		    		<li>Посмотрите в каких условиях и на каком оборудовании вы будете обучаться.</li>
+		    	</ul>
+		    	<p>Если вы еще в чем-то сомневаетесь, приходите к нам на открытый урок!</p>
+		      <input class="popup-form" type="text" placeholder="Имя"/>
+		      <input class="popup-form" type="text" placeholder="Фамилия" />
+		      <input class="popup-form" type="text" placeholder="Email" />
+		      <input class="popup-form" type="text" placeholder="Номер телефона" />
+		      <input class="popup_submit" type="submit" value="Записаться">
+		    </form>
+   		</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
