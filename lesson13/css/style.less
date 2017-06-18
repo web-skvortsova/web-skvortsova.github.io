@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'PantonBlack';
+    src: url('../fonts/PantonBlack.eot');
+    src: url('../fonts/PantonBlack.eot') format('embedded-opentype'),
+         url('../fonts/PantonBlack.woff2') format('woff2'),
+         url('../fonts/PantonBlack.woff') format('woff'),
+         url('../fonts/PantonBlack.ttf') format('truetype'),
+         url('../fonts/PantonBlack.svg#PantonBlack') format('svg');
+}
+@font-face {
+    font-family: 'PantonExtraBlack';
+    src: url('../fonts/PantonExtraBlack.eot');
+    src: url('../fonts/PantonExtraBlack.eot') format('embedded-opentype'),
+         url('../fonts/PantonExtraBlack.woff2') format('woff2'),
+         url('../fonts/PantonExtraBlack.woff') format('woff'),
+         url('../fonts/PantonExtraBlack.ttf') format('truetype'),
+         url('../fonts/PantonExtraBlack.svg#PantonExtraBlack') format('svg');
+}
+@font-face {
+    font-family: 'PantonExtraBold';
+    src: url('../fonts/PantonExtraBold.eot');
+    src: url('../fonts/PantonExtraBold.eot') format('embedded-opentype'),
+         url('../fonts/PantonExtraBold.woff2') format('woff2'),
+         url('../fonts/PantonExtraBold.woff') format('woff'),
+         url('../fonts/PantonExtraBold.ttf') format('truetype'),
+         url('../fonts/PantonExtraBold.svg#PantonExtraBold') format('svg');
+}
+@font-face {
+    font-family: 'PantonLight';
+    src: url('../fonts/PantonLight.eot');
+    src: url('../fonts/PantonLight.eot') format('embedded-opentype'),
+         url('../fonts/PantonLight.woff2') format('woff2'),
+         url('../fonts/PantonLight.woff') format('woff'),
+         url('../fonts/PantonLight.ttf') format('truetype'),
+         url('../fonts/PantonLight.svg#PantonLight') format('svg');
+}
+@font-face {
+    font-family: 'PantonSemiBold';
+    src: url('../fonts/PantonSemiBold.eot');
+    src: url('../fonts/PantonSemiBold.eot') format('embedded-opentype'),
+         url('../fonts/PantonSemiBold.woff2') format('woff2'),
+         url('../fonts/PantonSemiBold.woff') format('woff'),
+         url('../fonts/PantonSemiBold.ttf') format('truetype'),
+         url('../fonts/PantonSemiBold.svg#PantonSemiBold') format('svg');
+}
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+.header-main {
+	width: 100vw;
+	height: 144px;
+	&__text h2 {
+		margin-top: 12%;
+		margin-left: -200px;
+		text-align: center;
+		font-family: 'PantonExtraBold';
+		color: #363636;
+		font-size: 24px;
+		text-transform: uppercase;
+	}
+	&__phone {
+		margin-top: 20px;
+		float: left;
+		a {
+		display: block;
+		font-family: 'PantonExtraBold';
+		color: #363636;
+		font-size: 30px;
+		text-decoration: none;
+	}
+	}
+	&__btn {
+	border-radius: 10px;
+	border: 2px solid #282828;
+	width: 263px;
+	height: 47px;
+	text-decoration: none;
+	background-color: transparent;	
+	font-family: 'PantonSemiBold';
+	color: #363636;
+	font-size: 26px;
+}
+}
+.nav-header {
+	width: 100vw;
+	height: 93px;
+	background-color: #292d30;
+	text-align: center;
+	line-height: 93px;
+	&__item {
+		display: inline-block;
+		list-style-type: none;
+		color: #fff;
+		font-size: 30px;
+		font-family: 'PantonLight';
+		margin: 0 10px;
+	}
+}
+.header {
+	width: 100vw;
+	height: 1070px;
+	background: url(../img/bg.jpg) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+	&__logo {
+		margin-top: 260px;
+		margin-bottom: 20px;
+	}
+	&__h1 {
+		 font-family: 'PantonBlack';
+		 font-size: 40px;
+		 text-transform: uppercase;
+	}
+	&__h2 {
+		font-family: 'PantonSemiBold';
+		font-size: 24px;
+		text-transform: uppercase;
+		margin-bottom: 79px;
+	}
+	&__text {
+		font-family: 'PantonSemiBold';
+		font-size: 24px;
+		img {
+			height: 90px;
+			vertical-align: top;
+		}
+	}
+	&__btn {
+		margin-bottom: 150px;
+		background-color: #059feb;
+		width: 350px;
+		height: 66px;
+		text-decoration: none;
+		border: none;
+		border-radius: 100px;
+		font-family: 'PantonExtraBold';
+		font-size: 30px;
+		color: #fff;
+		text-transform: uppercase;
+	}
+}
+.about {
+		color: #363636;
+		&__block {
+			padding: 0 80px;
+		}
+	&__header {
+		font-size: 36px;
+		font-family: 'PantonExtraBlack';
+		text-transform: uppercase;
+		text-align: center;
+		margin-top: 145px;
+		margin-bottom: 100px;
+	}
+	&__border {
+		border-left: 5px solid #059feb;
+		height: 86px;
+		padding: 0 0 0 10px;
+		margin-bottom: 30px;
+	}
+	&__icon {
+		margin-bottom: -20px;
+	}
+	&__h3 {
+		font-family: 'PantonExtraBold';
+		font-size: 30px;
+		padding-bottom: 30px;
+		text-transform: uppercase;
+	}
+	&__text {
+		font-family: 'PantonSemiBold';
+		font-size: 18px;
+	}
+}
